@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portfolio</title>
+
+    <!-- PROFESSIONAL FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<!-- Background Music (Hidden & Loop) -->
+<audio id="bgMusic" loop>
+    <source src="Island Song (Come Along with Me) (feat. Ashley Eriksson).mp3" type="audio/mpeg">
+</audio>
+
+
+<!-- NAVIGATION -->
+<nav>
+    <div class="logo"></div>
+    <ul>
+        <li onclick="showSection('home')">Home</li>
+        <li onclick="showSection('view')">View</li>
+        <li onclick="showSection('about')">About</li>
+        <li onclick="showSection('activity')">Activity</li>
+    </ul>
+</nav>
+
+<!-- HOME SECTION -->
+<section id="home" class="section active">
+    <div class="home-wrapper">
+
+        <!-- LEFT TEXT -->
+        <div class="home-text">
+            <h1 class="main-title">STUDENT PORTFOLIO</h1>
+            <h2 class="name">CHRISTIAN RAZON</h2>
+            <h3 class="course">
+                Bachelor of Science in Information Technology
+            </h3>
+
+            <p class="home-description">
+                I am currently studying Bachelor of Science in Information Technology 
+                at San Pedro College of Business Administration. This course allows 
+                me to develop technical skills, problem-solving abilities, and 
+                critical thinking, all of which are essential for a career in the IT industry. 
+                Through this program, I aim to combine my passion for technology with 
+                my goal of serving my country as a “man in uniform” in the field of IT.
+            </p>
+        </div>
+
+        <!-- Hacker effect bar -->
+<div class="hacker-bar" id="hackerBar">
+     <span class="hacker-text"></span>
+</div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="home-image">
+            <img src="PROFILE.jpg" alt="Christian Razon">
+        </div>
+
+     
+
+    </div>
+</section>
+
+
+<!-- VIEW SECTION -->
+
+<section id="view" class="section">
+    <div class="view-container">
+        <!-- LEFT PROFILE IMAGE -->
+        <div class="left-box">
+            <img src="PROFILE2.jpg" alt="Christian Razon">
+        </div>
+
+        <!-- RIGHT DESCRIPTION BOXES -->
+        <div class="right-boxes">
+            <!-- BOX 1 -->
+            <div class="desc-box">
+                <p>
+                    Hi, I’m Christian Razon. I love learning new things and figuring out how stuff works. 
+                    Every small discovery makes me more excited to explore and try out new ideas. 
+                    I enjoy observing, experimenting, and seeing progress step by step.
+                </p>
+            </div>
+
+            <!-- BOX 2 -->
+            <div class="desc-box">
+                
+                    I enjoy taking on challenges, big or small. Solving problems and finding simple ways 
+                    to make things work is what keeps me motivated every day. 
+                    I like turning obstacles into opportunities to grow and improve myself.
+                                                             
+                
+            </div>
+
+            <!-- BOX 3 -->
+            <div class="desc-box">
+                <p>
+                    I believe in doing my best and learning along the way. I’m always looking for ways to grow, 
+                    try new things, and improve myself, one step at a time. 
+                    Every experience teaches me something new, and I use that to push myself further.
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Slideshow Carousel -->
+    <div class="slideshow-carousel">
+        <div class="carousel-track">
+            <img src="SLIDE1.jpg" class="carousel-slide">
+            <img src="SLIDE2.jpg" class="carousel-slide">
+            <img src="SLIDE3.jpg" class="carousel-slide">
+            <img src="SLIDE4.jpg" class="carousel-slide">
+            <img src="SLIDE5.jpg" class="carousel-slide">
+            <!-- duplicate for smooth infinite loop -->
+            <img src="SLIDE1.jpg" class="carousel-slide">
+            <img src="SLIDE2.jpg" class="carousel-slide">
+            <img src="SLIDE3.jpg" class="carousel-slide">
+            <img src="SLIDE4.jpg" class="carousel-slide">
+            <img src="SLIDE5.jpg" class="carousel-slide">
+        </div>
+    </div>
+</section>
+
+
+<!-- ABOUT SECTION -->
+
+<<section id="about" class="section">
+    <div class="about-container">
+        <!-- ABOUT ME -->
+        <div class="about-box">
+            <h3>About Me</h3>
+            <p>
+                Hi! I’m Christian Razon, 22 years old and a proud Scorpio. I like to think I’m funny and easy to get along with, 
+                but don’t try to test my patience—when I get annoyed, trust me, it’s better to stay out of the way. 
+                I enjoy meeting new people, sharing laughs, and making everyday moments a little brighter. 
+                I like to stay curious and learn new things, whether it’s about technology, life, or even the small challenges that come my way. 
+                Friendly, determined, and always trying to balance work, studies, and fun, I believe that a good sense of humor 
+                paired with hard work is the key to staying motivated and making progress in life.
+            </p>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="about-box">
+            <h3>Skills</h3>
+            <p>
+                I have a solid foundation in basic computer knowledge and typing skills, built from years of using computers and gaming, 
+                which also taught me patience and focus. I have basic communication skills, which I strengthened during my one-year experience 
+                working in a BPO environment. Beyond tech, I also have basic basketball skills, enjoy casual sports, and can handle simple household chores. 
+                I like learning by doing, and I’m always open to picking up new skills that can help me grow personally and professionally.
+            </p>
+        </div>
+
+        <!-- EDUCATIONAL BACKGROUND -->
+        <div class="about-box">
+            <h3>Educational Background</h3>
+            <p>
+                I began my educational journey at Maranatha Christian Academy for elementary, then attended Pacita National High School for my secondary education. 
+                After high school, I pursued senior high at Pacita Senior High School. My college journey started at Lyceum of Alabang, 
+                where I spent my first year, and I am currently continuing my studies at San Pedro College of Business Administration. 
+                Each step of my education has taught me discipline, responsibility, and the importance of balancing academics with personal growth and social interaction.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ACTIVITY SECTION -->
+<section id="activity" class="section">
+
+    <!-- PRELIM -->
+    <h2 class="activity-title">PRELIM</h2>
+    <div class="activity-group">
+        <div class="activity-box">
+            <img src="PRELIM1.png" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="PRELIM2.png" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="prelim3.jpg" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="prelim4.jpg" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="prelim5.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- MIDTERM -->
+    <h2 class="activity-title">MIDTERM</h2>
+    <div class="activity-group">
+        <div class="activity-box">
+            <img src="midterm1.jpg" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="midterm2.jpg" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="midterm3.jpg" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="midterm4.jpg" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="midterm5.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- FINALS -->
+    <h2 class="activity-title">FINALS</h2>
+    <div class="activity-group">
+        <div class="activity-box">
+            <img src="final1.jpg" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="final2.jpg" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="final3.jpg" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="final4.jpg" alt="">
+        </div>
+        <div class="activity-box">
+            <img src="final5.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
